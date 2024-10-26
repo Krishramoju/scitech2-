@@ -1,0 +1,18 @@
+{
+  "name": "artist-marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace platform for artists to showcase and sell their work",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
